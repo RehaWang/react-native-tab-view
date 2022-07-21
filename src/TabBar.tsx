@@ -355,7 +355,7 @@ export default class TabBar<T extends Route> extends React.Component<
             scrollEnabled={scrollEnabled}
             bounces={bounces}
             alwaysBounceHorizontal={false}
-            scrollsToTop={false}
+            scrollsToTop={true}
             showsHorizontalScrollIndicator={false}
             automaticallyAdjustContentInsets={false}
             overScrollMode="never"
